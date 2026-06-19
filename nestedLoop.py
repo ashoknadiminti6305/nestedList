@@ -1,5 +1,5 @@
 # Sum of digits
-num1 = 15
+num1 = 1234
 sum_digits = 0
 temp = num1
 
@@ -12,7 +12,7 @@ print("Sum of digits:", sum_digits)
 
 
 # Reverse a number
-num2 = 15
+num2 = 1234
 rev = 0
 temp = num2
 
@@ -25,7 +25,7 @@ print("Reverse:", rev)
 
 
 # Count digits
-num3 = 15
+num3 = 12345
 count = 0
 temp = num3
 
@@ -37,7 +37,7 @@ print("Digit count:", count)
 
 
 # Check even or odd
-num4 = 15
+num4 = 17
 if num4 % 2 == 0:
     print("Even")
 else:
@@ -45,7 +45,7 @@ else:
 
 
 # Check prime number
-num5 = 10
+num5 = 13
 
 if num5 <= 1:
     print("Not Prime")
@@ -64,20 +64,20 @@ def factorial(n):
         return 1
     return n * factorial(n - 1)
 
-print("Factorial:", factorial(4))
+print("Factorial:", factorial(5))
 
 
 # Factors of a number
 num6 = 12
-factors = []
+
 
 for i in range(1, num6 + 1):
     if num6 % i == 0:
-        factors.append(i)
+        print(i,sep=",",end=" ")
 
-print("Factors:", factors)
+        
 
-
+print()
 # Palindrome
 num7 = 121
 temp = num7
