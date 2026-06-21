@@ -73,7 +73,7 @@ num6 = 12
 
 for i in range(1, num6 + 1):
     if num6 % i == 0:
-        print(i,sep=",",end=" ")
+        print(i,end=" ")
 
         
 
